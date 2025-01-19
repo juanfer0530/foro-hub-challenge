@@ -21,12 +21,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import com.juanfernando.foro_hub_challenge.domain.Topico.Topico;
-import com.juanfernando.foro_hub_challenge.domain.Topico.TopicoRepository;
-import com.juanfernando.foro_hub_challenge.domain.Topico.dto.DatosActualizarTopico;
-import com.juanfernando.foro_hub_challenge.domain.Topico.dto.DatosListadoTopico;
-import com.juanfernando.foro_hub_challenge.domain.Topico.dto.DatosRegistroTopico;
-import com.juanfernando.foro_hub_challenge.domain.Topico.dto.DatosRespuestaTopico;
+import com.juanfernando.foro_hub_challenge.domain.topico.Topico;
+import com.juanfernando.foro_hub_challenge.domain.topico.TopicoRepository;
+import com.juanfernando.foro_hub_challenge.domain.topico.dto.DatosActualizarTopico;
+import com.juanfernando.foro_hub_challenge.domain.topico.dto.DatosListadoTopico;
+import com.juanfernando.foro_hub_challenge.domain.topico.dto.DatosRegistroTopico;
+import com.juanfernando.foro_hub_challenge.domain.topico.dto.DatosRespuestaTopico;
 
 import jakarta.validation.Valid;
 

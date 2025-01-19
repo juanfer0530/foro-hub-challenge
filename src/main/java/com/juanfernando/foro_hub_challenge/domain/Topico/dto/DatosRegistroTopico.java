@@ -1,9 +1,8 @@
-package com.juanfernando.foro_hub_challenge.domain.Topico.dto;
+package com.juanfernando.foro_hub_challenge.domain.topico.dto;
 
 import java.time.LocalDateTime;
 
-import com.juanfernando.foro_hub_challenge.domain.Topico.Curso;
-
+import com.juanfernando.foro_hub_challenge.domain.topico.Curso;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

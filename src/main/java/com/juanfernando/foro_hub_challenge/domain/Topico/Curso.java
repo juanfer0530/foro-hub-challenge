@@ -1,4 +1,4 @@
-package com.juanfernando.foro_hub_challenge.domain.Topico;
+package com.juanfernando.foro_hub_challenge.domain.topico;
 
 public enum Curso {
     CURSO1,

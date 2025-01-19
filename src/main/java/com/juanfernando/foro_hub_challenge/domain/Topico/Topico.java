@@ -1,10 +1,10 @@
-package com.juanfernando.foro_hub_challenge.domain.Topico;
+package com.juanfernando.foro_hub_challenge.domain.topico;
 
 import java.time.LocalDateTime;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.juanfernando.foro_hub_challenge.domain.Topico.dto.DatosActualizarTopico;
-import com.juanfernando.foro_hub_challenge.domain.Topico.dto.DatosRegistroTopico;
+import com.juanfernando.foro_hub_challenge.domain.topico.dto.DatosActualizarTopico;
+import com.juanfernando.foro_hub_challenge.domain.topico.dto.DatosRegistroTopico;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;

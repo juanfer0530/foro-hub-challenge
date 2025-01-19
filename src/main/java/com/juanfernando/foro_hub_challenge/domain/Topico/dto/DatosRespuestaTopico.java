@@ -1,9 +1,9 @@
-package com.juanfernando.foro_hub_challenge.domain.Topico.dto;
+package com.juanfernando.foro_hub_challenge.domain.topico.dto;
 
 import java.time.LocalDateTime;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.juanfernando.foro_hub_challenge.domain.Topico.Curso;
+import com.juanfernando.foro_hub_challenge.domain.topico.Curso;
 
 public record DatosRespuestaTopico(
     long id,
